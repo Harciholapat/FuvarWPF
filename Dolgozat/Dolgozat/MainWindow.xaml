@@ -1,0 +1,25 @@
+﻿<Window x:Class="Dolgozat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dolgozat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btn3Feladat" Margin="50" Grid.Row="0" Grid.Column="0" Content="3.Feladat" FontSize="20" Click="btn3Feladat_Click"/>
+        <Button x:Name="btn4feladat" Margin="50" Grid.Row="0" Grid.Column="1" Content="4.Feladat" FontSize="20" Click="btn4feladat_Click"/>
+        <Button x:Name="btn5feladat" Margin="50" Grid.Row="1" Grid.Column="0" Content="5.Feladat" FontSize="20" Click="btn5feladat_Click"/>
+        <Button x:Name="btn6feladat" Margin="50" Grid.Row="1" Grid.Column="1" Content="6.Feladat" FontSize="20" Click="btn6feladat_Click" />
+    </Grid>
+</Window>
